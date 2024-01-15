@@ -8,10 +8,12 @@ const config: Config = {
     favicon: 'img/favicon.ico',
 
     url: 'https://fadelang.github.io',
-    baseUrl: '/specification/',
+    baseUrl: '/',
 
     organizationName: 'fadelang',
-    projectName: 'specification',
+    projectName: 'fadelang.github.io',
+    deploymentBranch: 'deployment',
+    trailingSlash: true,
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
