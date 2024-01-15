@@ -1,6 +1,6 @@
 {
-  "name": "fadelang-specification",
-  "version": "0.0.0",
+  "name": "luft-website",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

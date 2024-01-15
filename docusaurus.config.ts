@@ -3,15 +3,15 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-    title: 'Specification',
-    tagline: 'Specification',
+    title: 'Luft 🪶',
+    tagline: 'A (work in progress) general purpose programming language',
     favicon: 'img/favicon.ico',
 
-    url: 'https://fadelang.github.io',
+    url: 'https://luftlang.github.io',
     baseUrl: '/',
 
-    organizationName: 'fadelang',
-    projectName: 'fadelang.github.io',
+    organizationName: 'luftlang',
+    projectName: 'luftlang.github.io',
     deploymentBranch: 'deployment',
     trailingSlash: true,
 
@@ -20,7 +20,9 @@ const config: Config = {
 
     i18n: {
         defaultLocale: 'en',
-        locales: ['en'],
+        locales: [
+            'en'
+        ],
     },
 
     presets: [
@@ -43,17 +45,23 @@ const config: Config = {
     themeConfig: {
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'specification',
+            title: 'Luft',
             logo: {
-                alt: 'fadelang logo',
+                alt: 'luft logo',
                 src: 'img/logo.svg',
             },
             items: [
                 {
                     type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
+                    sidebarId: 'learnSidebar',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Learn',
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'referenceSidebar',
+                    position: 'left',
+                    label: 'Reference',
                 },
                 {
                     to: '/blog',
@@ -61,8 +69,8 @@ const config: Config = {
                     position: 'left'
                 },
                 {
-                    href: 'https://github.com/facebook/docusaurus',
-                    label: 'GitHub',
+                    href: 'https://github.com/luftlang',
+                    label: 'Luft on GitHub',
                     position: 'right',
                 },
             ],
@@ -71,28 +79,11 @@ const config: Config = {
             style: 'dark',
             links: [
                 {
-                    title: 'Docs',
+                    title: 'Reference',
                     items: [
                         {
-                            label: 'Tutorial',
-                            to: '/docs/intro',
-                        },
-                    ],
-                },
-                {
-                    title: 'Community',
-                    items: [
-                        {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
-                        {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
-                        },
-                        {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/docusaurus',
+                            label: 'Reference',
+                            to: '/reference/',
                         },
                     ],
                 },
@@ -101,16 +92,16 @@ const config: Config = {
                     items: [
                         {
                             label: 'Blog',
-                            to: '/blog',
+                            to: '/blog/',
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            href: 'https://github.com/luftlang/',
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Luftlang.`,
         },
         prism: {
             theme: prismThemes.github,
