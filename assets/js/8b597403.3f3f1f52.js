@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfadelang_specification=self.webpackChunkfadelang_specification||[]).push([[2763],{5745:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

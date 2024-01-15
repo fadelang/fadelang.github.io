@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfadelang_specification=self.webpackChunkfadelang_specification||[]).push([[9661],{6416:(e,a,s)=>{s.r(a),s.d(a,{default:()=>f});s(959);var c=s(6259),n=s(2106),r=s(5097),i=s(3797),t=s(2827),u=s(1527);function f(e){return(0,u.jsx)(n.FG,{className:(0,c.Z)(r.k.wrapper.docsPages),children:(0,u.jsx)(t.Z,{children:(0,i.H)(e.route.routes)})})}}}]);
