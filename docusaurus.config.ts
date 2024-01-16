@@ -13,7 +13,7 @@ const config: Config = {
     organizationName: 'luftlang',
     projectName: 'luftlang.github.io',
     deploymentBranch: 'deployment',
-    trailingSlash: true,
+    trailingSlash: false,
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
