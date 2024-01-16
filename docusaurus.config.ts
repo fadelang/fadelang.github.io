@@ -83,7 +83,7 @@ const config: Config = {
                     items: [
                         {
                             label: 'Reference',
-                            to: '/reference/',
+                            to: '/docs/reference/',
                         },
                     ],
                 },
